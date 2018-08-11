@@ -1,0 +1,178 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Alfa Slab One', cursive; 
+font-family: 'Titan One', cursive;
+*/
+
+body {
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	background: #eee;
+
+	/* background: #000; */
+	background: url("../images/pablo-merchan-montes-237641-unsplash-burger-cropped.jpg") no-repeat center center fixed; 
+	background-size: cover;
+	height: 100vh;
+
+}
+
+#title {
+	height: 200px;
+	width: auto;
+	display: block;
+	align-items: center;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	/* background: #333; */
+	margin: 0;
+	/* height: 60px; */
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	margin: auto;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 100;
+}
+
+h2 {
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 100;
+}
+
+button {
+	display: inline;
+	border-radius: 5px;
+	border-width: 0px;
+	font-family: 'Titan One', cursive;
+}
+
+.eatDatBurger {
+	display: inline;
+}
+
+#burgerWrapper {
+	display: flex;
+	margin-bottom: 3rem;
+}
+
+#availableBurgs {
+	flex-grow: 1;
+	padding: 0.5em 2em 1.7em 2em;
+	padding-left: 15%;
+	background: rgba(255, 255, 255, 0.65);
+	margin: 1em 1em 1em 0;
+}
+
+#eatenBurgs {
+	flex-grow: 1;
+	background: rgba(51, 51, 51, 0.75);
+	padding: 0.5em 2em 1.7em 2em;
+	margin: 1em 0 1em 1em;
+}
+
+#eatenBurgs h2, #eatenBurgs div {
+	color: #ddd;
+}
+
+.wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	margin-right: 5px;
+	border-radius: 5px;
+	border: solid white 1px;
+	box-shadow: #333 2px 2px;
+
+}
+
+#burgerCapture {
+	display: flex;
+	justify-content: center;
+	padding-top: 55px;
+	padding-bottom: 40px;
+}
+
+.burger {
+	line-height: 2;
+}
+
+.eatMe {
+	display: inline;
+	margin-left: 0.7em;
+	padding: 5px;
+	font-family: 'Titan One', cursive;
+	border: #000 .75px solid;
+	box-shadow: #333 .5px .5px;
+}
+
+
+
+#burgerName {
+	padding: 0.5em 1em 0.5em 1em;
+	font-size: 1.5em;
+}
+
+span {
+	font-size: 0.75em;
+	line-height: 0.75em;
+	background: crimson;
+	color: white;
+	padding: 3px 7px 3px 7px;
+	border-radius: 50%;
+	border: #000 .75px solid;
+	text-align: center;
+	margin-right: 5px;
+	/* box-shadow: #333 .5px .5px; */
+}
+
+#submitBtn {
+	padding: 0.57em 1em 0.57em 1em;
+	font-size: 1.5em;
+	background: crimson;
+	-webkit-text-stroke: #fff .25px;
+	border-width: 0px;
+	font-weight: 100;
+	box-shadow: #333 2px 2px;
+}
+
+footer {
+    font-size: 0.75rem;
+    text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgba(0, 0, 0, 0.75);
+    color:white; 
+	/* padding: 2px; */
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#35315b+0,4c58ff+4,ccd6ff+30,ccd6ff+35,ccd6ff+35,ffffff+54,000f03+56,ec47ff+88,f7afff+100 */
+    /* background: #35315b;
+    background: -moz-linear-gradient(top, #35315b 0%, #4c58ff 4%, #ccd6ff 30%, #ccd6ff 35%, #ccd6ff 35%, #ffffff 54%, #000f03 56%, #ec47ff 88%, #f7afff 100%);
+    background: -webkit-linear-gradient(top, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%);
+    background: linear-gradient(to bottom, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35315b', endColorstr='#f7afff',GradientType=0 ); */
+}
+
+footer a {
+    color: white;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
